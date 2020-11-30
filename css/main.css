@@ -1,0 +1,50 @@
+body {
+    position: relative;
+}
+header {
+    min-height: 50vh;
+    margin-top: 3.5rem;
+}
+.jumbotron {
+    margin-bottom: 0rem;
+}
+section {
+    padding-top: 3.5rem;
+}
+section:last-of-type {
+    padding-bottom: 3.5rem;
+}
+.home-hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.logo-font {
+    font-family: 'Times New Roman', Times, Georgia, serif;
+}
+.house-img {
+    background-image: url(../images/house.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.flood-img {
+    background-image: url(../images/flood.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.auto-img {
+    background-image: url(../images/auto.jpg);
+    background-size: cover;
+    background-position: right;
+}
+#services div {
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    #services div {
+        margin-bottom: 0rem;
+    }
+}
+#services div:last-of-type {
+    margin-bottom: 0rem;
+}
